@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+/*
+
+To compile:
+gcc lab2.c -o lab2
+
+To run:
+./lab02
+
+*/
+
 int main() {
     int n;
 
