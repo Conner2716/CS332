@@ -1,8 +1,5 @@
-Lab 4 Instructions
+to Compile the file:
+gcc -Wall -o lab05 mckelvyc_LAB05.c
 
-To compile:
-gcc -Wall -o lab04 mckelvyc_LAB04.c
-
-To execute: 
-./lab04 file1 file2
-
+to execute the file:
+./lab05 .
