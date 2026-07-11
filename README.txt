@@ -1,35 +1,11 @@
-HW 2
-Conner McKelvy 
-mckelvyc
+Lab 6 - mckelvyc
 
-Files:
-    mckelvyc_HW02.c
-    Makefile
-    README.txt
+How to compile:
+gcc -Wall -o mckelvyc_LAB06 mckelvyc_LAB06.c
 
-To compile:
-    make
+How to run:
+./mckelvyc_LAB06
 
-To run:
-    ./homework [-S] [-s size] [-f pattern depth] [-t f|d] [directory]
-
-Examples:
-    ./homework
-    ./homework ../programs
-    ./homework -S
-    ./homework -s 1024
-    ./homework -f jpg 1
-    ./homework -t d
-
-Notes:
-    - Uses function pointers: a printer function pointer picks how each
-      entry is displayed (plain, or with -S details), and predicate
-      function pointers check the -s/-f/-t filters. All active filters
-      must pass for an entry to be listed.
-    - Symbolic links are shown as "name (target)".
-
-Testing:
-    Tested with the sample projects/ folder from the assignment (all
-    options and combinations produced correct output), and with a small
-    test folder containing a symlink to check the -f, -s, and -t
-    filters and combinations of them.
+This reads listings.csv and creates two new files:
+sorted_by_host_name.csv - sorted by host name
+sorted_by_price.csv - sorted by price
