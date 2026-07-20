@@ -1,11 +1,11 @@
-Lab 6 - mckelvyc
+Conner McKelvy
+Lab 7
 
-How to compile:
-gcc -Wall -o mckelvyc_LAB06 mckelvyc_LAB06.c
+C File:
+mckelvyc_LAB07.c
 
-How to run:
-./mckelvyc_LAB06
+Compile:
+gcc -Wall -O -o mckelvyc_LAB07 mckelvyc_LAB07.c
 
-This reads listings.csv and creates two new files:
-sorted_by_host_name.csv - sorted by host name
-sorted_by_price.csv - sorted by price
+Run:
+./mckelvyc_LAB07 
