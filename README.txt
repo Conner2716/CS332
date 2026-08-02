@@ -1,11 +1,13 @@
-Conner McKelvy
-Lab 7
+Name:Conner McKelvy
+BlazerID: mckelvyc
 
-C File:
-mckelvyc_LAB07.c FILENAME
+Files:
+mckelvyc_HW03.c
+Makefile
+README.txt
 
 Compile:
-gcc -Wall -O -o mckelvyc_LAB07 mckelvyc_LAB07.c
+makefile
 
 Run:
-./mckelvyc_LAB07 
+./hw3 <directory_name>
