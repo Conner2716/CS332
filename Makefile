@@ -1,8 +1,10 @@
 CC = gcc
-CFLAGS = -Wall -g
-EXECS = hw3
+CFLAGS = -Wall
+TARGET = bonus_hw
+SOURCE = mckelvyc_Bonus_HW.c
 
-all: $(EXECS)
+$(TARGET): $(SOURCE)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCE) -lpthread
 
-hw3: mckelvyc_HW03.c
-	$(CC) $(CFLAGS) -o hw3 mckelvyc_HW03.c
+clean:
+	rm -f $(TARGET) average.txt
